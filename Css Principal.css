@@ -2,7 +2,18 @@ body {
     background-color: white;
     background-image: url('Imagens/WorldCup.gif');
     background-size: 100%;
+    background-repeat: no-repeat;
+    
     margin:0;
+  }
+
+  p{
+  position: absolute;
+  top: 1050px;
+  width: 300px;
+  font-size: 150%;
+  color:  #7d1143;
+
   }
   
   hr{
@@ -102,4 +113,10 @@ body {
     mix-blend-mode: lighten;
     padding: 5px 15px;
     text-align: center;
+}
+
+img{
+  position: absolute;
+  top: 780px;
+  
 }
